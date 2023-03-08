@@ -50,11 +50,12 @@ function introdueBoxMaker(containerElement, childElementOne, childElementTwo) {
     makeBox.style.borderRadius = "20px";
   };
 };
+introdueBoxMaker('div', 'div', 'div');
 
 
 //------------------2번째 부분------------
 
-const page2 = document.getElementById('page2');
+
 const myimg = document.createElement('div');
 const mytexts = document.createElement('div');
 
